@@ -213,7 +213,7 @@ function searchKnowledgeBase(query) {
   
   // Si pas de correspondance, retourne un message d'aide
   if (maxScore === 0 || bestMatch === null) {
-    return `Je suis **UniHelp**, l'assistant virtuel de l'Université Centrale de Tunis.
+    return `Je suis **UniHelp**, l'assistant virtuel de l'UNihelp.
 
 Pourriez-vous reformuler votre question ou choisir un sujet parmi :
 

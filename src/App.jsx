@@ -138,7 +138,7 @@ export default function Chatbot() {
           {showSubjects && (
             <div style={{ animation: "fadeIn 0.3s ease" }}>
               <h1 style={{ fontSize: "26px", color: "#333", marginBottom: "8px", textAlign: "center", fontWeight: 700 }}>Bienvenue ! 👋</h1>
-              <p style={{ color: "#666", marginBottom: "24px", textAlign: "center" }}>Je suis l'assistant virtuel de l'Université Centrale de Tunis</p>
+              <p style={{ color: "#666", marginBottom: "24px", textAlign: "center" }}>Je suis l'assistant virtuel de l'UNihelp</p>
               <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "12px" }}>
                 {SUBJECTS.map(subject => (
                   <button key={subject.id} onClick={() => selectSubject(subject.id)} style={{ background: "white", border: `2px solid ${subject.color}30`, borderRadius: "16px", padding: "24px 16px", cursor: "pointer", display: "flex", flexDirection: "column", alignItems: "center", gap: "10px", transition: "all 0.2s", boxShadow: "0 2px 8px rgba(0,0,0,0.08)" }}>
